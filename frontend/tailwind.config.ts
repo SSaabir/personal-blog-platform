@@ -1,0 +1,48 @@
+export default {
+  content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
+  theme: {
+    extend: {
+      colors: {
+        primary: {
+          50: '#fffefb',
+          100: '#fffdf7',
+          200: '#fffcf0',
+          300: '#fffae8',
+          400: '#fff9de',
+          500: '#FFF8D4',
+          600: '#f5e8a8',
+          700: '#ead87c',
+          800: '#dfc850',
+          900: '#d4b824',
+          DEFAULT: '#FFF8D4',
+        },
+        secondary: {
+          50: '#f7f9f5',
+          100: '#eff3eb',
+          200: '#dfe7d7',
+          300: '#cfdbc3',
+          400: '#b9c5a5',
+          500: '#A3B087',
+          600: '#8a9870',
+          700: '#6f7d5a',
+          800: '#545f44',
+          900: '#39412e',
+          DEFAULT: '#A3B087',
+        },
+        accent: {
+          50: '#f5f6f7',
+          100: '#ebedef',
+          200: '#d7dbdf',
+          300: '#b0b7bf',
+          400: '#6d7685',
+          500: '#313647',
+          600: '#2a2f3d',
+          700: '#232733',
+          800: '#1c1f29',
+          900: '#15171f',
+          DEFAULT: '#313647',
+        },
+      },
+    },
+  },
+};
